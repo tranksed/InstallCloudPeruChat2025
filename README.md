@@ -9,3 +9,7 @@ ACCEDIENDO AL DIRECTORIO DEL INSTALADOR E INICIANDO INSTALACIONES ADICIONALES (U
 cd && cd ./install && sudo ./install_instancia
 ```
 
+EN CASO DA ERROR DE USUARIO CREALO DE ESTA MANERA
+
+sudo useradd -m -s /bin/bash deploy
+sudo passwd deploy
